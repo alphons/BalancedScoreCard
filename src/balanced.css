@@ -1,0 +1,57 @@
+body
+{
+	background-color: #1a1a1a;
+	margin: 0;
+	padding: 10px;
+}
+
+.meters
+{
+	font-family: Arial;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.meter
+{
+	position: relative;
+	text-align: center;
+	margin: 4px;
+	background: #2c2c2c;
+	padding: 10px;
+	border-radius: 10px;
+	width: 200px;
+	height: 180px;
+}
+
+canvas
+{
+	aborder: solid 1px red;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 200px;
+	height: 180px;
+}
+
+.meter canvas:first-child
+{
+	z-index: 1;
+}
+
+.meter canvas:nth-child(2)
+{
+	z-index: 2;
+}
+
+.meter p
+{
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	margin: 160px 0 0 0;
+	position: relative;
+	z-index: 3;
+}
