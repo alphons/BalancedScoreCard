@@ -1,5 +1,8 @@
 # BalancedScoreCard
 
+![example](https://github.com/alphons/BalancedScoreCard/blob/main/image.png)
+
+
 ```html
 <!DOCTYPE html>
 <html lang="nl">
