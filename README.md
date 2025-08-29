@@ -23,9 +23,9 @@
 
 
 ```javascript
-addMeter(50.0, woord, 0.0, 100.0);
+addMeter(50.0, 'a title', 0.0, 100.0);
 
-addMeter(0.0, woord, -1.0, 1.0);
+addMeter(0.0, 'name of meter', -1.0, 1.0);
 ```
 
 ```javascript
